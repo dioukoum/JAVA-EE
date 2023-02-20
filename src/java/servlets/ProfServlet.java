@@ -31,6 +31,8 @@ public class ProfServlet extends HttpServlet {
         String salaire= request.getParameter("salaire");
         Prof p= new Prof(nom, prenom, Integer.parseInt(salaire));
         request.setAttribute("prof", p);
+        //REDIRECTION
+        request.getRequestDispatcher("/page/prof_list.jsp").forward(request, response);
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

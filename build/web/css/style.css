@@ -1,0 +1,13 @@
+/* 
+    Created on : 4 févr. 2023, 10:16:26
+    Author     : DELL
+*/
+
+label{
+    display:flex;
+    width: 100px;
+    float: left;
+}
+div{
+    margin-top: 20px;
+}
